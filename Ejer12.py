@@ -12,4 +12,4 @@ def EuclidesMCD(numero1,numero2):
             return EuclidesMCD(numero1,numero1%numero2)
 
 
-print(EuclidesMCD(78,30))
+print(EuclidesMCD(247,221))
