@@ -13,4 +13,12 @@ print(caracteres)
 
 print(CaracteresInvertido(caracteres,len(caracteres)-1))
 
+def invertir_cadena(cadena):#! 6
+    if(len(cadena) == 0):
+        return ""
+    else:
+        return cadena[-1] + invertir_cadena(cadena[0:-1])
+
+print(invertir_cadena("hola mundo desde python"))
+
         
