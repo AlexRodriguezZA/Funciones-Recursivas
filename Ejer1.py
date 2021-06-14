@@ -1,4 +1,4 @@
-#!Implementar una función que permita obtener el valor en la sucesión de Fibonacci para un número dado.
+#Implementar una función que permita obtener el valor en la sucesión de Fibonacci para un número dado.
 def Fibon(numero):
     if (numero == 1 or numero == 0):
         return numero
