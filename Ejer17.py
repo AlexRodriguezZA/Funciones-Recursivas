@@ -2,7 +2,7 @@
 
 def VectorAlRevez(lista,i):
     print(lista[i])
-    if (i <= (len(lista) - len(lista))):
+    if (i <= 0):
         print("Llegaste al final de la lista")
     else:
         return VectorAlRevez(lista,i-1)

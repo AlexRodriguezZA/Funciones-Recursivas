@@ -8,7 +8,7 @@
 
 def UsarLaFuerza(lista,n):
     if (lista[n] == "sable"):
-        return print("--> Encontraste el sable en la posición --> ",n,"Fueron necesarios sacar ",n-(n-n)," elementos anteriormente")
+        return print("--> Encontraste el sable en la posición --> ",n,"Fueron necesarios sacar ",n," elementos anteriormente")
     elif (len(lista) == n+1):
         return print("--> Llegaste al final de la lista sin encontrar el sable") #Cuando el sable no está en la mochila
     else:
